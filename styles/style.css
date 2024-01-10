@@ -30,11 +30,13 @@ header {
     padding: 0px 350px;
 }
 
+/* Main Section Styles */
 main {
     max-width: 1320px;
     margin: 0px auto;
 }
 
+/* section 1 */
 .section1 h1 {
     color: #F00;
     text-align: center;
@@ -62,8 +64,8 @@ main {
 }
 
 .section1-img {
-    /* width: 802.9px; */
-    /* height: 500px;
+    /* width: 802.9px;
+    height: 500px;
     flex-shrink: 0; */
     margin: 48px 250px;
 }
@@ -99,13 +101,48 @@ main {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    background-color:#ffffff00;
+    background-color: #ffffff00;
     border: none;
     margin: 48px 158px;
-    cursor:grab;
+    cursor: grab;
 }
 
-.img{
+.img {
     padding: 60px 40px 0px 0px;
 }
 
+/* section3 style */
+.section3 {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 442px;
+    align-items: center;
+}
+
+.sec3-text {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 150px 0px 30px 0px;
+}
+
+.sec3-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    align-items: center;
+    margin: 0px 560px;
+}
+
+.sec3-s-text {
+    color: #F00;
+}
