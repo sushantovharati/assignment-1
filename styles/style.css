@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Header styles */
 header {
     background-image: url('../resources/Banner\ Image.png');
     width: 1320px;
@@ -64,12 +65,10 @@ main {
 }
 
 .section1-img {
-    /* width: 802.9px;
-    height: 500px;
-    flex-shrink: 0; */
     margin: 48px 250px;
 }
 
+/* Section 2 styles */
 .section2 {
     background-image: url('../resources/Vectorrr.png');
     height: 600px;
@@ -127,7 +126,7 @@ main {
     line-height: 56px;
     text-transform: capitalize;
     text-align: center;
-    padding: 150px 0px 30px 0px;
+    padding: 80px 0px 50px 0px;
 }
 
 .sec3-btn {
@@ -140,7 +139,8 @@ main {
     background: #F00;
     padding: 16px 32px;
     align-items: center;
-    margin: 0px 560px;
+    margin: 20px 560px;
+    cursor: grab;
 }
 
 .sec3-s-text {
@@ -320,7 +320,7 @@ main {
 
 /* section 7 style */
 .section7 {
-    margin: 120px auto;
+    margin: 100px auto;
     background-color: rgba(255, 0, 0, 0.05);
     border-radius: 10px;
     text-align: center;
@@ -349,6 +349,7 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    padding: 20px 0px 0px 0px;
 }
 
 .section7 form {
@@ -382,4 +383,126 @@ main {
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
+    cursor: grab;
+}
+
+/* footer style */
+footer {
+    max-width: 1600px;
+    margin: 50px auto;
+    background-color: #070211;
+}
+
+.bound {
+    max-width: 1320px;
+    margin: 50px auto;
+    background-color: #070211;
+}
+
+/* footer row 1 */
+.footer-row1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0px 50px 0px;
+}
+
+.footer-row1 .left h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-row1 .right .line1 {
+    display: flex;
+}
+
+.footer-row1 .right .line1 img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.footer-row1 .right .line1 button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    background-color: #070211;
+    border: none;
+    cursor: grab;
+}
+
+.footer-row1 .right .line2 {
+    display: flex;
+}
+
+.footer-row1 .right .line2 img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.footer-row1 .right .line2 a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+
+/* footer row 2 */
+.footer-row2 {
+    text-align: center;
+}
+
+.footer-row2 button {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    background-color: black;
+    border: none;
+    cursor: grab;
+
+}
+
+.footer-row2 .Facebook {
+    background-image: url(../resources/Facebook.png);
+}
+
+.footer-row2 .Instagram {
+    background-image: url(../resources/Instagram.png);
+}
+
+.footer-row2 .Twitter {
+    background-image: url(../resources/Twitter.png);
+}
+
+.footer-row2 .Linkedin {
+    background-image: url(../resources/Linkedin.png);
+}
+
+/* row 3 */
+.footer-row3 {
+    color: #FFF;
+    display: flex;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: space-between;
+    padding: 98px 0px 120px 0px;
+
+}
+
+.footer-row3 button {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    background-color: black;
+    cursor: grab;
 }
