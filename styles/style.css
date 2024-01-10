@@ -200,3 +200,82 @@ main {
     font-weight: 400;
     line-height: 32px;
 }
+
+/* Section 5 styles */
+
+.sec5-text {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.sec5-text h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sec5-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sec5-text p {
+    max-width: 900px;
+    max-height: 96px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0px 250px 0px 220px;
+}
+
+.sec5-img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sec5-img1 {
+    width: 550px;
+    height: 500px;
+    position: relative;
+    top: -200px;
+    left: 50px;
+}
+
+.sec5-img2 {
+    position: relative;
+    top: -420px;
+    left: -240px;
+    border-style: none;
+
+}
+
+.sec5-img3 {
+    width: 430px;
+    position: relative;
+    top:-360px;
+    left: 336px;
+    height: 433px;
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.sec5-img4 {
+    width: 1320px;
+    height: 230px;
+
+    position: relative;
+    top: 374px;
+}
