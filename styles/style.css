@@ -265,7 +265,7 @@ main {
 .sec5-img3 {
     width: 430px;
     position: relative;
-    top:-360px;
+    top: -360px;
     left: 336px;
     height: 433px;
     border-radius: 16px 16px 0px 0px;
@@ -278,4 +278,41 @@ main {
 
     position: relative;
     top: 374px;
+}
+
+/* section 6 styles */
+
+.sec6-text h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sec6-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sec6-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.section6 .sec6-img .first{
+    display: flex;
+}
+.section6 .sec6-img .second{
+    display: flex;
 }
